@@ -65,5 +65,5 @@ $merged_output=(json_encode(
     var_dump($merged_output);
 //file_put_contents("json_county.json", $json_county); 
 //file_put_contents("json_line.json", $json_line); 
-file_put_contents("output.json.json", $merged_output); 
+file_put_contents("output.json", $merged_output); 
 ?>
